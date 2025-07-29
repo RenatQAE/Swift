@@ -6,9 +6,3 @@ var pi : double = 3.14
 
 let companyName : String = "Apple"
 
-//  helloNewUser.swift
-//  
-//
-//  Created by Алина Каримова on 22.07.2025.
-//
-

@@ -9,10 +9,3 @@ var years = months / 12 // перевод месяцев в годы
 
 print("\(seconds) секунд это \(minutes) минут \(hours) часов \(days) дней \(weeks) неделя \(months) месяца \(years) лет!")
     
-//
-//  hw1.swift
-//  
-//
-//  Created by Алина Каримова on 29.07.2025.
-//
-
