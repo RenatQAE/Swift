@@ -1,5 +1,35 @@
 import UIKit
 
+
+
+var sstudentsAge : [String:Int] = [
+    "Andrey":18,
+    "Maksim":22,
+    "Alina":32,
+    "Svetlana":19
+]
+// как будто бы не выводит всех
+for (name, age) in sstudentsAge {
+        print(name, age)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //.1 Создайте массив с именами 5 ваших друзей.
 var myFriends = ["Ramil","Artem","Maksim","Eldar","Artur"]
 // 2.Добавьте еще два имени в этот массив.
@@ -45,11 +75,11 @@ var studentsAge : [String:Int] = [
     "Andrey":18,
     "Maksim":22,
     "Alina":32,
-    "Svetlana":19,
+    "Svetlana":19
 ]
 // как будто бы не выводит всех
 for (name, age) in studentsAge {
-    print("\(name) - \(age)")
+        print(name, age)
 }
     // а вот так вывожу всех
 studentsAge.forEach { name, age in
@@ -87,3 +117,10 @@ citiesPopulation["Berlin"] = 4000000
 citiesPopulation.forEach{ city, population in
 print ("\(city): \(population)")}
 
+var name : String = "200"
+var year : Int = 3
+var j : Double = 2.2
+
+var nameInt : Int = Int(name)!
+var j3 : Int = nameInt*2
+print (name+" ALINa")
